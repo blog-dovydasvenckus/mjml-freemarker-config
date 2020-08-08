@@ -1,0 +1,21 @@
+{
+  "name": "mjml-freemarker-config",
+  "version": "0.0.1",
+  "description": "Sample config for MJML to work with freemarker tags",
+  "scripts": {
+    "build": "mjml -r src/templates/*.mjml -o build/templates/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blog-dovydasvenckus/mjml-freemarker-config.git"
+  },
+  "author": "Dovydas Venckus",
+  "license": "GPLV2",
+  "bugs": {
+    "url": "https://github.com/blog-dovydasvenckus/mjml-freemarker-config/issues"
+  },
+  "homepage": "https://github.com/blog-dovydasvenckus/mjml-freemarker-config#readme",
+  "dependencies": {
+    "mjml": "^4.6.3"
+  }
+}

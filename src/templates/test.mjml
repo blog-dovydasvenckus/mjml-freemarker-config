@@ -1,0 +1,9 @@
+<mjml>
+  <mj-body>
+    <mj-raw>
+      <#list tasks as task>
+        ${task.description}
+      </#list>
+    </mj-raw>
+  </mj-body>
+</mjml>
