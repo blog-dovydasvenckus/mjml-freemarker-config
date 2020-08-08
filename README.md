@@ -1,0 +1,1 @@
+# mjml-freemarker-config
