@@ -1,8 +1,18 @@
 <mjml>
+  <mj-head>
+    <mj-style inline="inline">
+      body {
+        color: red;
+      }
+    </mj-style>
+  </mj-head>
+
   <mj-body>
     <mj-raw>
       <#list tasks as task>
-        ${task.description}
+        <#if task.dateCreated?has_content>
+          <span>${task.dateCreated}</span>
+        </#if>
       </#list>
     </mj-raw>
   </mj-body>
