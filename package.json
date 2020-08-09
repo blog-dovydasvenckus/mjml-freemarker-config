@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Sample config for MJML to work with freemarker tags",
   "scripts": {
-    "build": "mjml -r src/templates/*.mjml -o build/templates/"
+    "build": "mjml --config.useMjmlConfigOptions=true -r src/templates/*.mjml -o build/templates/"
   },
   "repository": {
     "type": "git",

@@ -1,13 +1,15 @@
 {
   "packages": [],
-  "juicePreserveTags": {
-    "freeMarkerStartTag": {
-      "start": "<#",
-      "end": ">"
-    },
-    "freeMarkerEndTag": {
-      "start": "</#",
-      "end": ">"
+  "options": {
+    "juicePreserveTags": {
+      "freeMarkerStartTag": {
+        "start": "<#",
+        "end": ">"
+      },
+      "freeMarkerEndTag": {
+        "start": "</#",
+        "end": ">"
+      }
     }
   }
 }
